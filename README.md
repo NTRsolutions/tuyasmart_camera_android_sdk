@@ -29,4 +29,4 @@ For the instructions of AndroidStudio, please refer to: [AndroidStudio Guides](h
 
 ## Doc
 
-Refer to Details: [Tuya Smart Camera Android SDK Doc]()
+Refer to Details: [Tuya Smart Camera Android SDK Doc](https://tuyainc.github.io/tuyasmart_camera_android_sdk_doc/en/)
