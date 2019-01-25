@@ -29,5 +29,5 @@ AndroidStudio的使用请参考: [AndroidStudio Guides](https://developer.androi
 
 ## 开发文档
 
-更多请参考: [涂鸦智能摄像机 Android SDK使用说明](https://tuyainc.github.io/tuyasmart_camera_android_sdk_doc/en/)
+更多请参考: [涂鸦智能摄像机 Android SDK使用说明](https://tuyainc.github.io/tuyasmart_camera_android_sdk_doc/zh-hans/)
 
