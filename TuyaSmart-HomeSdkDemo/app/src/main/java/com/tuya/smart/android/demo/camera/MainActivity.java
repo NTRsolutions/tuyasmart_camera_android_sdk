@@ -12,14 +12,18 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.tuya.smart.android.camera.api.ITuyaHomeCamera;
 import com.tuya.smart.android.demo.R;
 import com.tuya.smart.android.demo.utils.Constants;
 import com.tuya.smart.camera.middleware.ITuyaSmartCamera;
 import com.tuya.smart.camera.middleware.TuyaSmartCameraFactory;
+import com.tuya.smart.camera.middleware.utils.CRC32;
+import com.tuya.smart.camera.middleware.utils.IntToButeArray;
 import com.tuya.smart.camera.middleware.view.TuyaMonitorView;
 import com.tuya.smart.camera.tuyadeleagte.ICameraP2P;
 import com.tuya.smart.camera.tuyadeleagte.OnDelegateCameraListener;
 import com.tuya.smart.camera.tuyadeleagte.bean.TimePieceBean;
+import com.tuya.smart.home.sdk.TuyaHomeSdk;
 import com.tuya.tutk.OnTutkCameraListener;
 
 import java.nio.ByteBuffer;

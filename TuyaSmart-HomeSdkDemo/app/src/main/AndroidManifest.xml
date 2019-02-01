@@ -37,10 +37,10 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="TUYA_SMART_APPKEY"
-            android:value="pftsv98mrx7s5cvy5my7" />
+            android:value="54dgwaqfdyr3kwn8hjdy" />
         <meta-data
             android:name="TUYA_SMART_SECRET"
-            android:value="hjukftaqtv45uqy4s3yjq7x9s8ymtaq7" />
+            android:value="vmkvvstpe799ytmxkx9qv55na5jjnuws" />
 
         <activity
             android:name=".base.activity.SplashActivity"

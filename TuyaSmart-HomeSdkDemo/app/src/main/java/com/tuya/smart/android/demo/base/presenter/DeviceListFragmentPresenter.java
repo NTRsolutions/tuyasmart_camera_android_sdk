@@ -39,6 +39,7 @@ import com.tuya.smart.sdk.api.IResultCallback;
 import com.tuya.smart.sdk.bean.DeviceBean;
 
 import java.util.List;
+import java.util.Map;
 
 //import com.tuya.smart.android.demo.base.activity.TestMeshActivity;
 
@@ -128,6 +129,15 @@ public class DeviceListFragmentPresenter extends BasePresenter implements NetWor
         if ("sp".equals(devBean.getProductBean().getCategory())){
             Intent intent = new Intent(mActivity, WelcomeActivity.class);
             intent.putExtra(CommonDeviceDebugPresenter.INTENT_DEVID, devBean.getDevId());
+            intent.putExtra(CommonDeviceDebugPresenter.INTENT_LOCALKEY, devBean.getLocalKey());
+            Map<String, Object> map = devBean.getSkills();
+            int p2pType = -1;
+            if (map == null || map.size() == 0) {
+                p2pType = -1;
+            } else {
+                p2pType = (Integer) (map.get("p2pType"));
+            }
+            intent.putExtra(CommonDeviceDebugPresenter.INTENT_P2P_TYPE, p2pType);
             mActivity.startActivity(intent);
         }else {
             Intent intent = new Intent(mActivity, CommonDeviceDebugActivity.class);

@@ -53,6 +53,8 @@ public class CommonDeviceDebugPresenter extends BasePresenter implements IDevLis
     private Context mContext;
     private ICommonDeviceDebugView mView;
     public static final String INTENT_DEVID = "intent_devId";
+    public static final String INTENT_LOCALKEY = "intent_localkey";
+    public static final String INTENT_P2P_TYPE = "intent_p2p_type";
     private String mDevId;
     private DeviceBean mDevBean;
     private ITuyaDevice mTuyaDevice;
